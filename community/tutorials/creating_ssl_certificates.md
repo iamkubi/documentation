@@ -19,7 +19,7 @@ After installing acme.sh, we need to fetch a CloudFlare API key. Please make sur
 Since the configuration file is based on Certbot, we need to create the folder manually.
 
 ```bash
-sudo mkdir /etc/letsencrypt/live/example.com
+sudo mkdir -p /etc/letsencrypt/live/example.com
 ```
 
 After installing certbot and obtaining CloudFlare API key, we need to then generate a certificate. First input the CloudFlare API credentials.
